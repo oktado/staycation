@@ -2,7 +2,6 @@ import React from "react";
 import Button from "components/Button/index";
 
 function MostPicked({ MostPickedData, refMostPicked }) {
-  console.log(MostPickedData);
   return (
     <section className="container" ref={refMostPicked}>
       <h4 className="mb-3">Most Picked</h4>
